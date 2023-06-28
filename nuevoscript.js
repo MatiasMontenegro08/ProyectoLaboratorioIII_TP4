@@ -101,7 +101,7 @@ inputBusqueda.addEventListener('input', () => {
 
     const textoBusqueda = inputBusqueda.value.toLowerCase();
     //otra alternativa es usando startsWith
-    animalesFiltradosInput = animales.filter(animal => animal.name.toLowerCase().includes(textoBusqueda));
+    productosFiltradosInput = productos.filter(productos => productos.name.toLowerCase().includes(textoBusqueda));
 
     templateCard = ""
     productosFiltradosInput.forEach((productos) => {
